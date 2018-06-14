@@ -36,14 +36,14 @@ imap <Esc>[12~ <esc>:tabnew .<Enter>i
 map <Esc>[14~ <esc>:q<Enter>
 imap <Esc>[14~ <esc>:q<Enter>i
 
+map <F2> :w<Enter>
+map <F3> :tabedit<Enter>
+map <F4> i
 map <F5> :y<Enter>
 map <F6> :d<Enter>
-map <F8> :d<Enter>
 map <F7> :/
-map <F2> :w<Enter>
+map <F8> p
 map <F10> :q<Enter>
-map <F4> :i<Enter>
-map <F3> :tabedit<Enter>
 map <S-TAB> :tabprevious<CR>
 nmap <S-TAB> :tabprevious<CR>
 imap <S-TAB> <Esc>:tabprevious<CR>i
